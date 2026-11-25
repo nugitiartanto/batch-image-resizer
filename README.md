@@ -1,13 +1,5 @@
 # 📸 Cross-Platform Batch Image Resizer & Upscaler
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23833914.svg)](https://doi.org/10.5281/zenodo.23833914)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
-[![License](https://img.shields.io/badge/License-Copyright%20%C2%A9%202026%20Nugi%20Tiartanto-blue.svg?style=flat-square)](#author--maintainer)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-brightgreen.svg?style=flat-square)](#system-requirements--installation)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&style=flat-square)](#)
-[![GUI](https://img.shields.io/badge/GUI-CustomTkinter-blueviolet.svg?style=flat-square)](#)
-[![Engine](https://img.shields.io/badge/Engine-ImageMagick%207-orange.svg?style=flat-square)](#)
-
 A high-performance, cross-platform desktop application designed to run seamlessly on **Windows**, **macOS**, and **Linux**. It automates batch image upscaling, aspect ratio center-cropping, and quality resampling using Python and the native ImageMagick CLI engine (`magick`, `magick.exe`, or `convert`).
 
 Engineered with asynchronous multi-threading, modern Dark/Light mode customization, and non-blocking background workers.
@@ -205,33 +197,6 @@ batch-image-resizer/
 └── tests/
     └── test_processor.py     # Unit test suite & integration verification
 ```
-
----
-
-## 📚 Scientific Publication & Citation
-
-If you use this software in your research, academic projects, or benchmark evaluations, please cite the technical report published on Zenodo (CERN Archive):
-
-> **Nugi Tiartanto**, *"Rancang Bangun dan Analisis Kinerja Aplikasi Desktop Batch Image Resizing dan Upscaling Berbasis Multi-Threading dan Engine ImageMagick CLI,"* Zenodo Technical Report, Oct. 2026. DOI: [10.5281/zenodo.23833914](https://doi.org/10.5281/zenodo.23833914).
-
-### BibTeX Format
-```bibtex
-@article{tiartanto2026batchresizer,
-  author    = {Tiartanto, Nugi},
-  title     = {Rancang Bangun dan Analisis Kinerja Aplikasi Desktop Batch Image Resizing dan Upscaling Berbasis Multi-Threading dan Engine ImageMagick CLI},
-  year      = {2026},
-  month     = {10},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23833914},
-  url       = {https://doi.org/10.5281/zenodo.23833914}
-}
-```
-
----
-
-## 📄 License & Copyright
-
-**Copyright © 2026 Nugi Tiartanto ([@nugitiar](https://github.com/nugitiar)). All rights reserved.**
 
 Developed with precision by **Nugi Tiartanto**, Informatics Student & Software Creator.
 See the [Distribution Notice](#-distribution-notice--limited-binary-access) for pre-compiled binary distribution terms.
